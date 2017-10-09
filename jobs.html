@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Marina Café</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="css/bootstrap.min.css" />
+</head>
+<body class="container">
+	<header>
+		<img class="hidden-xs hidden-sm" src="images/logo.png" alt="logo" title="logo" />
+		<h1><a href="index.html">Marina Café</a></h1>
+	</header>	
+	<nav>
+		<ul class="nav nav-tabs">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="performances.html">Performances</a></li>
+			<li class="active"><a href="jobs.html">Jobs</a></li>        
+		</ul>
+	</nav>
+	<main>
+		<article>
+			<h3>Are you a college student who would like a part time jobs?</h3>
+			<p>Apply at Marina Café -- we will work around your school schedule.
+			Complete the information form at the right to get the application process started
+			Or, if you prefer, stop by Marina Café any time and ask about employment opportunities.
+			Marina Café is an equal opportunity employer.
+			We celebrate the diversity of our associaltes.</p>
+		</article>
+		<form action="job_applications.php" method="get">
+			<fieldset class="input-group">
+				<legend>Personal Information</legend>
+				<input type="text" name="name" id="name" placeholder="Name" required /><br/>
+				<input type="email" name="email" id="email" placeholder="E-mail" /><br/>
+				<input type="tel" name="phone" id="phone" placeholder="Phone" required /><br/>
+				
+				<label>Gender:</label>
+				<input type="radio" name="gender" id="male" value="male" />
+				<label for="male">Male</label>
+				<input type="radio" name="gender" id="female" value="female" />
+				<label for="female">Female</label><br/>
+			</fieldset>	
+			<fieldset class="form-group">
+				<legend>Application</legend>
+				<label>Please select the job roles you are interested in:</label><br/>
+				<input type="checkbox" name="job" id="bar_associate" value="bar_associate" />
+				<label for="bar_associate">Bar Associate</label><br/>
+				<input type="checkbox" name="job" id="server" value="server" />
+				<label for="server">Server</label><br/>
+				<input type="checkbox" name="job" id="cleaning_maintenance" value="cleaning_maintenance" />
+				<label for="cleaning_maintenance">Cleaning & Maintenance</label><br>
+				<input type="checkbox" name="job" id="manager" value="manager" />
+				<label for="manager">Manager</label><br/>
+				
+				<label>Employment type:</label>
+				<input type="radio" name="employment_type" id="part-time" value="part-time" />
+				<label for="part-time">Part-time</label>
+				<input type="radio" name="employment_type" id="full-time" value="full-time" />
+				<label for="full-time">Full-time</label><br/>
+
+				<label>Years of experience:</label>
+				<select name="years_of_experience">
+					<option value="no_experience">No experience</option>
+					<option value="less_than_1year">Less than 1 year</option>
+					<option value="more_than_1year">More than 1 year</option>
+				</select><br/>
+			</fieldset>
+			<fieldset class="form-group">				
+				<legend>Comments:</legend>
+				<textarea class="form-control" name="comments" id="comments"></textarea>
+				<br/>
+				<input class="btn btn-success" type="submit" value="SUBMIT" />
+			</fieldset>
+		</form>
+		<aside id="location">
+			<p>667 Lawrence Ave<br/>
+				Kelowna, BC V1Y 6L8<br>
+				<a href="tel:1-888-888-8888">1-888-888-8888</a>
+			</p>
+		</aside>
+	</main>
+	<footer><hr>
+		Copyright &copy; 2017 Marina Café<br/>
+		<a href='mailto&#58;m&#97;%&#55;2&#105;n&#97;%40mar%69nacafe&#46;com'>&#109;arin&#97;&#64;mari&#110;ac&#97;f&#101;&#46;com</a>
+	</footer>
+</body>
+</html>
