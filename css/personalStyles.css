@@ -2,34 +2,11 @@ html{
 	background:#d4ab6b;
 }
 
-header > img {
-	float:left;
-	padding-left:30px;
-	margin-bottom:50px;
-	height:200px;
-	width:195px;
-}
-
-ul{
-	font-weight:bold;
-}
-
-li > a{
-	color:#666666;
-}
-	
-h1 > a:hover{
-	text-decoration:none;
-}
-
-h3{
-	font-weight:bold;
-}
-
 body{
 	background-color:#fbedbe;
 }
 
+/*header block*/
 header{
 	padding-bottom:50px;
 	margin-left:auto;
@@ -37,24 +14,76 @@ header{
 	text-shadow:2px 2px #666666;
 }
 
+header > img {
+	float:left;
+	padding-left:30px;
+	margin-bottom:15px;
+	height:200px;
+	width:195px;
+}
+
+h1 > a:hover{
+	text-decoration:none;
+}
+
+/* navbar*/
+.navbar-default{
+	background:transparent;
+	border:transparent;
+	font-size:20px;
+}
+
+.navbar-brand{
+	font-weight:bold;
+	font-size:25px;
+}
+
+li > a{
+	font-weight:bold;
+}
+
+/*body text*/	
+h3{
+	font-weight:bold;
+}
+
 aside{
-	float:right;
+	padding-top:10px;
+	float:left;
 }
 
 footer{
 	font-style:italic;
 	text-align:center;
 	padding-top: 2px;
-	margin-top:70px;
+	margin-top:50px;
 	margin-bottom:20px;
 }
 
-nav{
-	font-size:20px;
+/*performer carousel*/
+.carousel-inner{
+	text-align:center;
 }
 
+.col-xs-12 > h3{
+	text-align:center;
+}
 
-@media only screen and (min-width:900px){
+.carousel-inner > .item > .img-rounded{
+	height:300px;
+	margin:auto;
+}
+
+@media only screen and (max-width:768px){
+	
+	h1{
+		text-align:center;
+		font-size:60px;
+		margin-bottom:0px;
+	}
+
+}
+@media only screen and (min-width:992px){
 	
 	h1{
 	padding-top:70px;

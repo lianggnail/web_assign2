@@ -12,13 +12,21 @@
 		<img class="hidden-xs hidden-sm" src="images/logo.png" alt="logo" title="logo" />
 		<h1><a href="index.html">Marina Café</a></h1>
 	</header>		
-	<nav>
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="index.html">Home</a></li>
-			<li><a href="menu.html">Menu</a></li>
-			<li><a href="performances.html">Performances</a></li>
-			<li><a href="jobs.html">Jobs</a></li>        
-		</ul>
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<a class="navbar-brand hidden-lg hidden-md">Navigation</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="glyphicon glyphicon-menu-hamburger"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="performances.html">Performances</a></li>
+				<li><a href="jobs.html">Jobs</a></li>        
+			</ul>
+		</div>
 	</nav>
 	<main>
 		<section id="serive">
@@ -33,11 +41,13 @@
 			<p>free parking at the rear and wifi</p>
 		</section>
 		<aside id="location">
-			<p>667 Lawrence Ave<br/>
-				Kelowna, BC V1Y 6L8<br>
+			<p><span class="glyphicon glyphicon-map-marker"></span>
+				667 Lawrence Ave<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kelowna, BC V1Y 6L8<br>
+				<span class="glyphicon glyphicon-phone-alt"></span>
 				<a href="tel:1-888-888-8888">1-888-888-8888</a>
 			</p>
-		</aside>
+		</aside><br/>
 	</main>
 	<footer><hr/>
 		Copyright &copy; 2017 Marina Café<br/>

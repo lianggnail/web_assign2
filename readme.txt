@@ -4,6 +4,7 @@
 
 2. What you have completed
 	• html informations about Marina Cafe
+	• mobile compatibility
 
 3. What you have not completed
 	none
@@ -11,3 +12,6 @@
 4. Any major challenges
 	• create job form
 	• css styling with bootstrap
+		• carousel setting
+		• navbar collapse
+
